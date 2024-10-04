@@ -1,0 +1,12 @@
+include $HOME/.config/sway/conf.d/ENVariables.conf
+include $HOME/.config/sway/conf.d/Wallpapers.conf
+include $HOME/.config/sway/conf.d/Monitors.conf
+include $HOME/.config/sway/conf.d/Autostart.conf
+include $HOME/.config/sway/conf.d/Input.conf
+include $HOME/.config/sway/conf.d/Keybindings.conf
+include $HOME/.config/sway/conf.d/Workspaces.conf
+include $HOME/.config/sway/conf.d/Scratchpad.conf
+include $HOME/.config/sway/conf.d/Bar.conf
+include $HOME/.config/sway/conf.d/Themes.conf
+include $HOME/.config/sway/conf.d/Floating.conf
+include /etc/sway/config.d/*

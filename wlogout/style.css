@@ -1,0 +1,78 @@
+* {
+  background-image: none;
+}
+
+window {
+  background-color: rgba(24, 25, 38, 0.95); /* Darker Crust */
+}
+
+button {
+  color: #ffffff; /* White text */
+  background-color: #1e2030; /* Dark Mantle */
+  border-style: solid;
+  border-color: #6e738d; /* Overlay0 */
+  border-width: 2px;
+  border-radius: 5px; /* Changed for a more rectangular shape */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+  margin: 182px 5px;
+}
+
+button:focus,
+button:active {
+  background-color: #363a4f; /* Surface0 */
+  outline-style: none;
+}
+
+button:hover {
+  background-color: #494d64; /* Surface1 */
+}
+
+#lock {
+  background-image: image(
+    url("./icons/lock.svg"),
+    url("/usr/share/wlogout/icons/lock.png"),
+    url("/usr/local/share/wlogout/icons/lock.png")
+  );
+}
+
+#logout {
+  background-image: image(
+    url("./icons/logout.svg"),
+    url("/usr/share/wlogout/icons/logout.png"),
+    url("/usr/local/share/wlogout/icons/logout.png")
+  );
+}
+
+#suspend {
+  background-image: image(
+    url("./icons/suspend.svg"),
+    url("/usr/share/wlogout/icons/suspend.png"),
+    url("/usr/local/share/wlogout/icons/suspend.png")
+  );
+}
+
+#hibernate {
+  background-image: image(
+    url("./icons/hibernate.svg"),
+    url("/usr/share/wlogout/icons/hibernate.png"),
+    url("/usr/local/share/wlogout/icons/hibernate.png")
+  );
+}
+
+#shutdown {
+  background-image: image(
+    url("./icons/shutdown.svg"),
+    url("/usr/share/wlogout/icons/shutdown.png"),
+    url("/usr/local/share/wlogout/icons/shutdown.png")
+  );
+}
+
+#reboot {
+  background-image: image(
+    url("./icons/reboot.svg"),
+    url("/usr/share/wlogout/icons/reboot.png"),
+    url("/usr/local/share/wlogout/icons/reboot.png")
+  );
+}

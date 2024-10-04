@@ -1,0 +1,263 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: JetBrainsMono Nerd Font, monospace;
+    font-weight: bold;
+    font-size: 14px;
+    min-height: 0;
+    color: #e4e4e4;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0);
+    color: #e4e4e4;
+    border-radius: 0;
+}
+
+#workspaces button {
+    padding: 3px 6px;
+    font-size: 12px;
+    color: #555869;
+    margin-right: 5px;
+}
+
+#workspaces button.active {
+    color: #e4e4e4;
+    background: #2e2e3e;
+    border-radius: 8px;
+    border: 2px solid #4a5a6a;
+    font-weight: bold;
+}
+
+#workspaces button.focused {
+    color: #e4e4e4;
+    background: #3a3a4a;
+    border-radius: 8px;
+}
+
+#workspaces button.urgent {
+    color: #e4e4e4;
+    background: #3a4c3a;
+    border-radius: 8px;
+}
+
+#workspaces button:hover {
+    background: #2a2a3a;
+    color: #e4e4e4;
+    border-radius: 8px;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#mpd,
+#custom-swaync,
+#custom-power {
+    background: #1e1e2e;
+    color: #d8cfc4;
+    padding: 0 10px;
+    margin: 3px 0px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+#window {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+    padding: 0 10px;
+    margin: 3px 0;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+#workspaces {
+    background-color: #1e1e2e;
+    border-radius: 10px;
+    margin: 3px 0;
+    margin-top: 5px;
+    padding: 0 10px;
+}
+
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+
+#clock {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+}
+
+#battery {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+}
+
+#battery.charging, #battery.plugged {
+    color: #ffffff;
+    background-color: #a4d6a1;
+}
+
+@keyframes blink {
+    to {
+        background-color: #1e1e2e;
+        color: #d8cfc4;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background-color: #f28b82;
+    color: #ffffff;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#custom-swaync {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+}
+
+#custom-power {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+}
+
+label:focus {
+    background-color: #1e1e2e;
+}
+
+#cpu {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+}
+
+#memory {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+}
+
+#disk {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+}
+
+#backlight {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+}
+
+#network {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+}
+
+#network.disconnected {
+    background-color: #f28b82;
+}
+
+#pulseaudio {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+}
+
+#pulseaudio.muted {
+    background-color: #b0d0d3;
+    color: #2a5c45;
+}
+
+#custom-media {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+    min-width: 100px;
+}
+
+#custom-media.custom-spotify {
+    background-color: #1e1e2e;
+}
+
+#custom-media.custom-vlc {
+    background-color: #f0c000;
+}
+
+#temperature {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+}
+
+#temperature.critical {
+    background-color: #f28b82;
+}
+
+#tray {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #f28b82;
+}
+
+#idle_inhibitor {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+}
+
+#mpd {
+    background-color: #1e1e2e;
+    color: #d8cfc4;
+}
+
+#mpd.disconnected {
+    background-color: #3a3a5b;
+}
+
+#mpd.stopped {
+    background-color: #2a2a4a;
+}
+
+#mpd.paused {
+    background-color: #2e2e4f;
+}
+
+#privacy {
+    padding: 0;
+}
+
+#privacy-item {
+    padding: 0 5px;
+    color: #e4e4e4;
+}
+
+#privacy-item.screenshare {
+    background-color: #f7b32b;
+}
+
+#privacy-item.audio-in {
+    background-color: #a4d6a1;
+}
+
+#privacy-item.audio-out {
+    background-color: #76c7c0;
+}
+
