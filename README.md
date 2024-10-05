@@ -28,4 +28,4 @@ To install SwayWM and its dependencies automatically, you can use the installati
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/varrxy/dotsswaywm_scripts.git
+   git clone https://github.com/varrxy/dotsswaywm-scripts.git
