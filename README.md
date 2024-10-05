@@ -23,7 +23,7 @@ Before you begin, ensure you have the following installed:
 
 ### Automated Script
 
-To install SwayWM and its dependencies automatically, you can use the installation script provided in [varrxy/dotsswaywm_scripts](https://github.com/varrxy/dotsswaywm_scripts). 
+To install SwayWM and its dependencies automatically, you can use the installation script provided in [varrxy/dotsswaywm_scripts](https://github.com/varrxy/dotsswaywm-scripts). 
 
 1. **Clone the repository:**
 
