@@ -13,12 +13,11 @@ This repository contains a minimal configuration for SwayWM, a tiling window man
 
 ![App Screenshot](https://i.postimg.cc/7ZrzVfjb/fullscreen-screenshot-8.png)
 
-![App Screenshot](https://i.postimg.cc/65jtc01h/IMG20241005162317.jpg)
-
 ![App Screenshot](https://raw.githubusercontent.com/varrxy/share/refs/heads/main/IMG_20241006_175603_212.jpg)
 
 ![App Screenshot](https://raw.githubusercontent.com/varrxy/share/refs/heads/main/IMG_20241006_175557_892.jpg)
 
+![App Screenshot](https://i.postimg.cc/65jtc01h/IMG20241005162317.jpg)
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
