@@ -2,7 +2,7 @@
 
 This repository contains a minimal configuration for SwayWM, a tiling window manager for Linux. This setup is designed to get you started quickly with SwayWM on a Debian-based system.
 
-# Neovim ruce is here
+# Neovim rice is here
 [nvim](https://github.com/varrxy/VimVarrxy)
 
 ## Screenshots
