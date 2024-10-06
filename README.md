@@ -26,6 +26,10 @@ Before you begin, ensure you have the following installed:
 
 - Debian (preferably a stable release)
 
+## Issue: 
+
+The applet is not added to the autostart configuration in /sway/conf.d/autostart. Currently, it is commented out. Please update the configuration to include the applet
+
 ## Installation
 
 ### Automated Script
