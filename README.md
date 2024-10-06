@@ -28,7 +28,7 @@ Before you begin, ensure you have the following installed:
 
 ## Issue: 
 
-The applet is not added to the autostart configuration in /sway/conf.d/autostart. Currently, it is commented out. Please update the configuration to include the applet
+The applet network-manager is not added to the autostart configuration in /sway/conf.d/autostart. Currently, it is commented out. Please update the configuration to have an applet
 
 ## Installation
 
