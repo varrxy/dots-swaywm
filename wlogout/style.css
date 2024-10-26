@@ -3,16 +3,16 @@
 }
 
 window {
-  background-color: rgba(24, 25, 38, 0.95); /* Darker Crust */
+  background-color: rgba(24, 25, 38, 0.95); 
 }
 
 button {
   color: #ffffff; /* White text */
   background-color: #1e2030; /* Dark Mantle */
   border-style: solid;
-  border-color: #6e738d; /* Overlay0 */
+  border-color: rgba(0, 0, 0, 0.8); /* Overlay0 */
   border-width: 2px;
-  border-radius: 5px; /* Changed for a more rectangular shape */
+  border-radius: 25px; /* Changed for a more rectangular shape */
   background-repeat: no-repeat;
   background-position: center;
   background-size: 25%;
