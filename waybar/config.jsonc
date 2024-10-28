@@ -119,8 +119,8 @@
     "backlight": {
         "format": "{percent}% {icon}",
         "format-icons": ["", "", "", "", "", "", "", "", ""],
-	"on-scroll-up": "~/.config/sway/scripts/brightness.sh --inc",
-        "on-scroll-down": "~/.config/sway/scripts/brightness.sh --dec"
+	"on-scroll-up": "~/.config/scripts/brightness.sh --inc",
+        "on-scroll-down": "~/.config/scripts/brightness.sh --dec"
     },
     "battery": {
         "states": {
@@ -155,9 +155,9 @@
         "format-bluetooth": "{icon} {volume}%",
         "format-bluetooth-muted": "󰂲 Muted",
         "format-muted": "  Muted",
-	"on-click": "~/.config/sway/scripts/volume.sh --toggle",
-        "on-scroll-up": "~/.config/sway/scripts/volume.sh --inc",
-        "on-scroll-down": "~/.config/sway/scripts/volume.sh --dec",
+	"on-click": "~/.config/scripts/volume.sh --toggle",
+        "on-scroll-up": "~/.config/scripts/volume.sh --inc",
+        "on-scroll-down": "~/.config/scripts/volume.sh --dec",
         "scroll-step": 5,
         "format-icons": {
             "headphone": "",
@@ -173,9 +173,9 @@
         "format": "{format_source}",
         "format-source": " {volume}%",
         "format-source-muted": "  Muted",
-        "on-click": "~/.config/sway/scripts/mic.sh --toggle",
-        "on-scroll-up": "~/.config/sway/scripts/mic.sh --inc",
-        "on-scroll-down": "~/.config/sway/scripts/mic.sh --dec",
+        "on-click": "~/.config/scripts/mic.sh --toggle",
+        "on-scroll-up": "~/.config/scripts/mic.sh --inc",
+        "on-scroll-down": "~/.config/scripts/mic.sh --dec",
         "scroll-step": 5
     },
     "custom/swaync": {
